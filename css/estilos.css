@@ -1,22 +1,58 @@
-body
-{
-    color: #333;
-    text-align: left;
-    font-family: "Arial";
-   font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-#container
-{
-width: 70%;
-padding: 1em;
-text-align: left;
-border: 1px solid #ddd;
-margin: 0 auto ;
+
+html {
+  font-size: 62.5%;
 }
 
-#container h1
-{
-    font-size: 2px;
-} 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  text-align: left;
+  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 70%;
+  height: auto;
+  padding: 1em;
+  text-align: left;
+  border: 2px solid #ddd;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.container .cabecera {
+  background-color: #33A;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cabecera h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.5rem;
+  color: white;
+}
+
+.post {
+  border: 1px solid yellowgreen;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.post .post__title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.post .post__paragraph {
+  margin-top: 8px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
