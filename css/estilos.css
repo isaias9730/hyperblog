@@ -1,4 +1,3 @@
-
 html {
   font-size: 62.5%;
 }
@@ -27,7 +26,7 @@ body {
   border-radius: 4px;
 }
 .container .cabecera {
-  background-color: #33A;
+  background-color: #33a;
   border-radius: 4px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -55,4 +54,28 @@ body {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 500;
+}
+
+footer {
+  background-color: #33a;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.social_link li{
+  list-style: none;
+}
+
+li a { 
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2rem
 }
